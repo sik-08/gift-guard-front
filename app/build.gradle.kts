@@ -56,4 +56,11 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+
+// Retrofit 라이브러리 han
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+// JSON을 코틀린 객체로 변환해주는 Gson
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
+
 }
