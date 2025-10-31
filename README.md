@@ -1,15 +1,11 @@
-파일들 외에 기본 파일에 몇줄 추가된 내용
+[ui기능만.zip](https://github.com/user-attachments/files/23249099/ui.zip)
 
 
 
-AndroidMainfest.xml 의  통신
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+빌드 가드 추가한 부분 혹시 몰라 재작성
 
-    빌드가드.app 
 
-    dependencies {
-    //  여기를 주목하세요: 확장 아이콘 세트 (CameraAlt 포함)를 수동으로 추가했습니다.
+    // ⭐⭐ 여기를 주목하세요: 확장 아이콘 세트 (CameraAlt 포함)를 수동으로 추가했습니다.
     implementation("androidx.compose.material:material-icons-extended")
 
     // Retrofit 및 JSON 변환 (Gson 또는 Moshi 등 선택)
@@ -39,7 +35,3 @@ AndroidMainfest.xml 의  통신
 
 // Compose에서 ViewModel을 사용하기 위한 라이브러리
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
-    implementation("com.squareup.okhttp3:okhttp:4.12.0")
-    implementation("com.squareup.okhttp3:logging-interceptor:4.12.0") // (선택 사항: 디버깅에 유용)
-
-    
