@@ -1,7 +1,8 @@
 파일들 외에 기본 파일에 몇줄 추가된 내용
 
-AndroidMainfest.xml 의  통신
 
+
+AndroidMainfest.xml 의  통신
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
